@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+.container {
+  width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding: 63px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-item {
+  margin-left:40px ;
+} 
+
+.header-link {
+  color: #8F8A99;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.active {
+  color:#1F1534;
+  font-weight: 700;
+}
+
+/* hero */
+
+.hero {
+  background-repeat: no-repeat;
+  background-image: url(../img/images/dots.png);
+}
+
+.hero-content {
+  width: 445px;
+}
+
+.hero-title {
+  color: #000;
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+margin-bottom: 25px;
+}
+
+.hero-text {
+  color: #7D7987;
+font-size: 21px;
+font-weight: 300;
+line-height: 32px;
+margin-bottom: 48px;
+}
+
+.hero-btn {
+  color: #FFF;
+font-size: 18px;
+font-weight: 700;
+line-height: 60px;
+border-radius: 55px;
+background-color: #458FF6;
+padding: 0 40px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* service */
+
+.service {
+  padding-top: 171px;
+  padding-bottom: 162px;
+}
+
+.service-title{
+  color: #000;
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+text-align: center;
+margin-bottom: 26px;
+}
+
+.service-line {
+  width: 56px;
+  height: 2px;
+  border-radius: 5px;
+background-color: #000;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 33px;
+}
+
+.service-text { 
+  color: #7D7987;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  width: 952px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 78px;
+}
+
+.service-item {
+  margin-bottom: 37px;
+  width: 350px;
+  border-radius: 20px;
+  background-color: #FFF;
+  box-shadow: 10px 40px 50px 0px #e5e9f666;
+  padding: 62px 52px 47px 37px;
+}
+
+.service-img {
+  margin-bottom: 19px;
+}
+
+.service-subtitle {
+  color: #000;
+font-size: 24px;
+font-weight: 700;
+line-height: 56px;
+}
+
+.service-cap {
+  color: #7D7987;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px; 
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.service-btn {
+  color: #458FF6;
+font-size: 18px;
+font-weight: 700;
+line-height: 60px;
+border-radius: 55px;
+border: 1.4px solid #458FF6;
+padding: 0 51px;
+}
+
+.service-btn-block {
+  text-align: center;
+}
+
+.service {
+  background-repeat: no-repeat;
+  background-image: url( ../img/images/Vector.png), url(../img/images/dots.png);
+  background-position: left center, right 86px center; 
+}
+
+/*leading*/
+
+.leading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leading-title {
+  color: #000;
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+margin-bottom: 26px;
+}
+
+.leading-text {
+  color: #7D7987;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+margin-bottom: 37px;
+}
+
+.leading-line {
+  width: 56px;
+    height: 2px;
+    border-radius: 5px;
+  background-color: #000;
+  margin-bottom: 33px;
+  display: block;
+}
+
+.leading-content {
+  width: 416px;
+}
+
+.leading-btn { 
+  color: #458FF6;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  padding: 0 51px;
+}
+
+.download-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 229px;
+}
+
+.download-title {
+  color: #000;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+width: 254px;
+margin-bottom: 30px;
+}
+
+.download-line {
+  width: 56px;
+  height: 2px;
+  border-radius: 5px;
+background-color: #000;
+margin-bottom: 33px;
+display: block; 
+}
+
+.download-text {
+  color: #7D7987;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+margin-bottom: 40px;
+width: 420px;
+}
+
+.download-btn {
+  color: #458FF6;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  padding: 0 51px;
+} 
+
+.download {
+  background-repeat: no-repeat;
+  background-image: url(../img/images/dots.png);
+  background-position: right -60px top; 
+}
+
+/*customer*/
+
+.customer {
+  margin-top:269px ;
+  padding-bottom: 170px;
+}
+
+.customer-block {
+  width: 1120px;
+  padding-top: 69px;
+  padding-bottom: 92px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 24px;
+  background-image: url(../img/images/dots.png), linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  background-repeat: no-repeat;
+  background-position: right -47px top -20px, center center;
+}
+
+.customer-title {
+  color: #FFF;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 25px;
+}
+
+.customer-line {
+  background-color: #fff;
+}
+
+.customer-content-block {
+  width: 862px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customer-text {
+  color: #ffffffe6;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 420px;
+}
+
+.customer-job {
+  color: #ffffffd9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.customer-name {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.customer-content-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.customer-info {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+
+.feature-dots {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 44px;
+}
+
+.feature-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #979797;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active-dot {
+  width: 14px;
+  height: 14px;
+  background-color: #5B9BF3;
+}
